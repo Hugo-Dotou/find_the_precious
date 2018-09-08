@@ -1,0 +1,320 @@
+@font-face{
+	font-family: "aniron";
+	src: url("anirm___.ttf");
+}
+@font-face{
+	font-family: "aniron";
+	font-weight: bold;
+	src: url("anirb___.ttf");
+}
+@font-face{
+	font-family: "anironC";
+	src: url("anicm___.ttf");
+}
+@font-face{
+	font-family: "anironC";
+	font-weight: bold;
+	src: url("anicb___.ttf");
+}
+@font-face
+{
+	font-family: "business";
+	src: url("partybusiness.ttf");
+}
+@font-face
+{
+	font-family: "symbole";
+	src: url("tngani.ttf");
+}
+body
+{
+	font-family: "aniron", sans-serif;
+}
+#navbar1
+{
+	background-color: #D2691E;
+}
+
+
+#listeNavbar a
+{
+	font-size: 15px;
+	border-left: 1px solid white;
+	margin-left: 20px;
+	padding-left: 20px;
+}
+#listeNavbar a:hover
+{
+	border-bottom: 4px solid white;
+	padding-bottom: 1px;
+	border-left: none;
+}
+#lien1
+{
+	border-left : none !important;
+}
+
+
+
+#wantedDead
+{
+	text-align: center;
+	padding-top: 50px;
+	color: black;
+	font-size: 25px;
+}
+#wantedDead span
+{
+	font-size: 18px;
+}
+.symbole
+{
+	font-family: "symbole";
+	color: orange;
+}
+
+.white1
+{
+	color: white;
+	font-size: 70px;
+	font-family: "business", sans-serif;
+}
+.white2
+{
+	color: white;
+	font-size: 40px;
+	font-family: "business", sans-serif;
+}
+#backgroundBlanc
+{
+	background-image: url("bg_light.png");
+}
+#persos
+{
+	margin-top: 50px;
+}
+#menu2
+{
+	margin-top: 50px;
+}
+#menu2 a
+{
+	background-color: none;
+	color: grey;
+}
+#menu2 a:hover
+{
+	color: orange;
+	border-bottom: 3px solid orange;
+}
+.symbole2
+{
+	font-family: "symbole";
+	color: orange;
+	display: none;
+}
+#menu2 a:hover > .symbole2
+{
+	display: inline;
+}
+.divBlack
+{
+	background-image: url("bg_dark.png");
+}
+.card-text
+{
+	color: white;
+	opacity: 0.6;
+	font-family: "business", sans-serif;
+	font-size: 25px;
+}
+#getMyReward
+{
+	background-image: url("bg_dark.png");
+	margin-top: 50px;
+}
+#getMyReward, h2, p
+{
+	color: white;
+}
+.h2BestHunters
+{
+	color: black;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.h2BestHunters, a
+{
+	color: black;
+}
+.h2BestHunters, p
+{
+	color: black;
+}
+.mt-0
+{
+	color: orange;
+}
+#bestHunters
+{
+	background-image: url("bg_light.png");
+}
+th
+{
+	width: 50%;
+}
+#awesome
+{
+	margin-top: 10px;
+}
+#gollum
+{
+	margin-top: 10px;
+}
+#divJoin
+{
+	display: flex;
+}
+#joinTheArmy
+{
+	background-image: url("bg_light.png");
+}
+#boutonJoin
+{
+	justify-content: : center;
+}
+#form
+{
+	display: flex;
+	flex-direction: column;
+}
+.marginForm
+{
+	margin-top: 10px;
+}
+#divJoin
+{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;	
+}
+#pwhite
+{
+	color: white;
+}
+#message
+{
+	height: 10em;
+}
+#contactUs
+{
+	background-image: url("bg_dark.png");
+}
+#h2contact
+{
+	color: white;
+}
+#footer
+{
+	background-color: #D2691E;
+	margin-top: 50px;
+	padding-top: 10px;
+}
+#footer a
+{
+	color: white;
+}
+
+#theRing
+{
+	background-image: url("bg_dark.png");
+}
+.card-header
+{
+	background-color: #D2691E;
+}
+
+
+.animation
+{
+	opacity: 1;
+}
+.animation:hover
+{
+	opacity: 1;
+}
+.card-img-top
+{
+	opacity: 0.5;
+}
+.animation:hover > .position
+{
+	opacity: 1;
+	top: 50%;
+	opacity: 0.5;
+}
+.animation:hover > .position2
+{
+	display: none;
+}
+.animation:hover > .card-img-top
+{
+	opacity: 1;
+}
+.position
+{
+	position: absolute;
+	top:25%;
+	left: 22%;
+	color: white;
+	font-family: "business", sans-serif;
+	font-size: 3em;
+}
+.position2
+{
+	position: absolute;
+	top:5%;
+	left: 15%;
+	color: black;
+	font-family: "business", sans-serif;
+	font-size: 1.5em;
+	background-color: white;
+	opacity : 1;
+	width: 70%;
+	text-align: center;
+	border-radius: 5px;
+}
+#gimliDead
+{
+	position: absolute;
+	top:8%;
+	left: 12%;
+	color: orange;
+	font-family: "business", sans-serif;
+	font-size: 3em;
+	opacity : 1;
+	width: 70%;
+	text-align: center;
+	border-radius: 5px;
+}
+.orange
+{
+	color: orange;
+}
+.card-text
+{
+	text-align: center;
+}
+#gimlibarre
+{
+	text-decoration: line-through;
+	text-decoration-color: orange;
+}
+#justify
+{
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	align-items: stretch;
+}
