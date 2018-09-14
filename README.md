@@ -1,1 +1,1 @@
-# find_the_precious
+Homepage of a site "Find the precious": exercise for Wild Code School.
