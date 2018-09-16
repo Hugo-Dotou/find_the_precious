@@ -11,7 +11,7 @@
 
 <body>
  <header class="container">
-  <div class="container"> 
+  <div id="divHeader"> 
     <nav id="navbar1" class="navbar navbar-expand-lg navbar-dark bg-muted row">
       <a class="navbar-brand" href="#"><img src="logo.png" alt="Title find the precious"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,23 +48,23 @@
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <div class="carousel-caption">
+        <div class="carousel-caption d-none d-lg-block">
           <h2 class="white1">Sauron is a very good bro,</h2>
           <p class="white2">please help him to find his ring !</p>
         </div>
         <img class="d-block w-100" src="dark_vador.jpg" alt="First slide">
       </div>
       <div class="carousel-item">
-        <div class="carousel-caption">
-          <h2 class="white1">Mais où est Hubert ?</h2>
-          <p class="white2">Pas ici</p>
+        <div class="carousel-caption d-none d-lg-block">
+          <h2 class="white1">Where is Hubert ?</h2>
+          <p class="white2">Hubert did not engage, let's go !</p>
         </div>
         <img class="d-block w-100" src="army.png" alt="Second slide">
       </div>
       <div class="carousel-item">
-        <div class="carousel-caption">
-          <h2 class="white1">Je n'aime pas les cornichons</h2>
-          <p class="white2">C'est pas bon !</p>
+        <div class="carousel-caption d-none d-lg-block">
+          <h2 class="white1">Sauron does not like pickles,</h2>
+          <p class="white2">death penalty for cooks who forget</p>
         </div>
         <img class="d-block w-100" src="weneedyou-1.png" alt="Third slide">
       </div>
@@ -91,7 +91,7 @@
     </div>
 
 <div id="persos" class="container">
-  <div id="divPersos" class="row">
+  <div id="divPersos" class="row justify-content-center">
   <div class="divBlack card col-lg-3 col-md-5" style="width: 18rem;">
     <div class="animation">
     <img class="card-img-top" src="gandalf.png" alt="Card image cap">
@@ -112,7 +112,7 @@
       <div class="card-text">sauron's finger says him his sword is dangerous...</div>
     </div>
   </div>
-  <div class="divBlack card col-lg-3 offset-lg-1 col-md-5 offset-md-3" style="width: 18rem;">
+  <div class="divBlack card col-lg-3 offset-lg-1 col-md-5" style="width: 18rem;">
     <div class="animation">
     <div id="gimliDead">DEAD</div>
     <img class="card-img-top" src="gimli.png" alt="Card image cap">
@@ -128,36 +128,36 @@
 
 </div>
             
- </section>
+</section>
  
 <section class="container" id="getMyReward">
   <h2 class="row">I have captured one of them, how to get my reward?</h2>
-  <div class="row">
+  <div id="divGetMyReward" class="row">
     <div class="col-md-8">
     <p id="pwhite">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
     </p>
-    <input class="row col-md-4 offset-md-3" type="button" value="Contact us"/>
+    <input class="row col-md-4 offset-md-4" id="btnReward" type="button" value="Contact us"/>
     </div>
-    <img class="col-md-3 offset-md-1" src="coin_sauron.png" alt="Money">
+    <img class="col-md-3 offset-md-1" id="imgReward" src="coin_sauron.png" alt="Money">
   </div>        
 </section>
 
 <section class="container" id="bestHunters">
 
-  <h2 class="h2BestHunters row">Best hunters</h2>
+  <h2 class="h2BestHunters row col-4 offset-4">Best hunters</h2>
   <div class="row">
-    <div class="media col-3">
-      <img class="mr-3" src="hunter1.png" alt="Generic placeholder image">
+    <div class="media col-6">
       <div class="media-body">
-        <h5 class="mt-0">ElvesKiller22</h5>
+        <img class="mr-3 col-lg-6 col-md-8 offset-lg-3 offset-md-2" src="hunter1.png" alt="Photo ElvesKiller22">
+        <h5 class="mt-0 text-center">ElvesKiller22</h5>
         <p>2 captures - <a href="">Profile</a></p><p><a href="https://facebook.com">Like</a></p>      
       </div>
     </div>
-    <div class="media col-3 offset-3">
-      <img class="mr-3" src="hunter2.png" alt="Generic placeholder image">
+    <div class="media col-6">      
       <div class="media-body">
-        <h5 class="mt-0">Goblin45</h5>
+        <img class="mr-3 col-lg-6 col-md-8 offset-lg-3 offset-md-2" src="hunter2.png" alt="Photo Goblin45">
+        <h5 class="mt-0 text-center">Goblin45</h5>
         <p>1 capture - <a href="">Profile</a></p><p><a href="https://facebook.com">Like</a></p>    
       </div>
     </div>
@@ -166,7 +166,7 @@
 </section>
 
 <section class="container" id="theRing">
- <h2 class="h2BestHunters row"> About the ring </h2>
+ <h2 class="h2BestHunters row col-4 offset-4" style="color: white"> About the ring </h2>
 
  <div class="card">
   <div class="card-header">
@@ -175,7 +175,7 @@
   <ul class="list-group list-group-flush">
     <li class="list-group-item">
       <table class="table table-striped table-bordered">
-        <caption> What can our master Sauron do with the ring?</caption>
+        <caption class="text-center"> What can our master Sauron do with the ring?</caption>
       <tr class="thead-dark">
         <th scope="col" class="blockquote text-center">Feature</th>
         <th scope="col" class="blockquote text-center">Description</th>
@@ -219,7 +219,7 @@
 </section>
 
 <section class="container" id="joinTheArmy">
-  <h2 class="h2BestHunters row">Join Mordor Army, we need you !</h2>
+  <h2 class="h2BestHunters row col-10 offset-1">Join Mordor Army, we need you !</h2>
   <div class="row"> 
   <img class="col-md-4" src="weneedyou-2.png" alt="An army of goblins">
   <div id="divJoin" class="col-md-8">
@@ -232,7 +232,7 @@
 </section>
 
 <section class="container" id="contactUs">
-  <h2 id="h2contact" class="h2BestHunters row">Contact us</h2>
+  <h2 id="h2contact" class="h2BestHunters row col-4 offset-4">Contact us</h2>
   <div class="row">
   <form class="col-6" id="form" method="post">
     <input type="email" name="mail" placeholder="@">
@@ -242,7 +242,7 @@
     </select> 
     <textarea class="marginForm" id="message" placeholder="Your message"></textarea>
   </form>
-  <img class="col-6" src="map.png" alt="map">
+  <img id="map" class="col-6" src="map.png" alt="map">
   </div>
 </section>
 
@@ -305,7 +305,7 @@
   </footer>
 
 
- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
                

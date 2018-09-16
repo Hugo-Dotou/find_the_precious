@@ -34,6 +34,11 @@ body
 {
 	background-color: #D2691E;
 }
+header
+{
+	margin-right: 0;
+	margin-left: 0;
+}	
 
 
 #listeNavbar a
@@ -53,7 +58,6 @@ body
 {
 	border-left : none !important;
 }
-
 
 
 #wantedDead
@@ -88,10 +92,19 @@ body
 #backgroundBlanc
 {
 	background-image: url("bg_light.png");
+	margin-left: -15px;
+	margin-right: -15px;
 }
+#carouselExampleControls
+{
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
 #persos
 {
 	margin-top: 50px;
+	padding-bottom: 50px;
 }
 #menu2
 {
@@ -128,20 +141,33 @@ body
 	font-family: "business", sans-serif;
 	font-size: 25px;
 }
+
 #getMyReward
 {
 	background-image: url("bg_dark.png");
-	margin-top: 50px;
 }
+#divGetMyReward
+{
+	padding-bottom: 50px;
+}
+
 #getMyReward, h2, p
 {
 	color: white;
+	padding-top: 50px;
+	text-align: center;
 }
 .h2BestHunters
 {
 	color: black;
-	margin-top: 50px;
 	margin-bottom: 50px;
+	padding-top: 50px;
+}
+.media
+{
+	border: 1px solid black;
+	padding-top: 20px;
+	margin-bottom: 20px;
 }
 .h2BestHunters, a
 {
@@ -165,7 +191,7 @@ th
 }
 #awesome
 {
-	margin-top: 10px;
+	margin-top: 30px;
 }
 #gollum
 {
@@ -175,9 +201,11 @@ th
 {
 	display: flex;
 }
+
 #joinTheArmy
 {
 	background-image: url("bg_light.png");
+	padding-bottom: 50px;
 }
 #boutonJoin
 {
@@ -187,6 +215,10 @@ th
 {
 	display: flex;
 	flex-direction: column;
+}
+#map
+{
+	margin-bottom: 15px;
 }
 .marginForm
 {
@@ -202,6 +234,16 @@ th
 #pwhite
 {
 	color: white;
+	padding-left: 20px;
+}
+#imgReward
+{
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+#btnReward
+{
+	margin-bottom: 20px;
 }
 #message
 {
@@ -210,6 +252,7 @@ th
 #contactUs
 {
 	background-image: url("bg_dark.png");
+	padding-bottom: 50px;
 }
 #h2contact
 {
@@ -218,8 +261,7 @@ th
 #footer
 {
 	background-color: #D2691E;
-	margin-top: 50px;
-	padding-top: 10px;
+	padding-top: 50px;
 }
 #footer a
 {
@@ -229,6 +271,7 @@ th
 #theRing
 {
 	background-image: url("bg_dark.png");
+	padding-bottom: 30px;
 }
 .card-header
 {
